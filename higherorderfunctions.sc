@@ -1,3 +1,4 @@
+//higherorder functions and map, filter,reduce function difference
 def transform(f: Int => Int, nums : Int*) = nums.map(f)
 
 transform(n => n*n, 1,2,3,4,5)
