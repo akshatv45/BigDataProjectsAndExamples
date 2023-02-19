@@ -1,0 +1,15 @@
+https://www.hackerrank.com/challenges/fp-sum-of-odd-elements/problem?isFullScreen=true
+
+You are given a list. Return the sum of odd elements from the given list. The input and output portions will be handled automatically. You need to write a function with the recommended method signature.
+
+Constraints
+
+The list will have  elements.
+Each element will be an integer.
+
+
+CODE:
+ def f(arr:List[Int]):Int = { var s = 0
+     for {i <- arr if i % 2 != 0} s += i
+    s
+}
