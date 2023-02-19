@@ -1,0 +1,12 @@
+https://www.hackerrank.com/challenges/fp-array-of-n-elements/problem?isFullScreen=true
+
+
+CODE:
+object Solution extends App {
+
+    def f(num:Int) : List[Int] = {
+        // Write your code here
+        val l = for (i <- 1 to num) yield i //creates a vector
+        val list = l.toList //converts into list
+        list
+    }
